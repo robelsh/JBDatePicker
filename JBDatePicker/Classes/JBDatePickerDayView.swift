@@ -162,8 +162,8 @@ public final class JBDatePickerDayView: UIView {
             }
         }
         
-        textLabel.attributedText = NSMutableAttributedString(string: String(dayInfo.dayValue), attributes:[NSAttributedStringKey.font: fontToUse])
-        
+        textLabel.attributedText = NSMutableAttributedString(string: String(dayInfo.dayValue), attributes:[NSAttributedString.Key.font: fontToUse])
+
     }
     
     public override func layoutSubviews() {

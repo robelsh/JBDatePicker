@@ -294,8 +294,8 @@ class JBDatePickerContentVC: UIViewController, UIScrollViewDelegate {
             
             isPresenting = true
             
-            UIView.animate(withDuration: 0.5, delay: 0, options: UIViewAnimationOptions(), animations: {
-                
+            UIView.animate(withDuration: 0.5, delay: 0, options: UIView.AnimationOptions(), animations: {
+
                 //animate positions of monthViews
                 previous.frame.origin.x -= self.scrollView.frame.width
                 presented.frame.origin.x -= self.scrollView.frame.width
@@ -331,8 +331,8 @@ class JBDatePickerContentVC: UIViewController, UIScrollViewDelegate {
             
             isPresenting = true
             
-            UIView.animate(withDuration: 0.5, delay: 0, options: UIViewAnimationOptions(), animations: {
-                
+            UIView.animate(withDuration: 0.5, delay: 0, options: UIView.AnimationOptions(), animations: {
+
                 //animate positions of monthViews
                 previous.frame.origin.x += self.scrollView.frame.width
                 presented.frame.origin.x += self.scrollView.frame.width
